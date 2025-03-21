@@ -1,5 +1,6 @@
 ## **Arrays**
-```const fiveStudents = ["Blessing", "Asantewaa", "Frema", "Peprah", "Agyei" ]
+```javascript 
+const fiveStudents = ["Blessing", "Asantewaa", "Frema", "Peprah", "Agyei" ]
 
 function findStudents(allStudents, studentName) {
   for (let i = 0; i < allStudents.length; i++) {
@@ -11,9 +12,10 @@ function findStudents(allStudents, studentName) {
   }
 }
 
-findStudents(fiveStudents, "Asantewaa")
+findStudents(fiveStudents, "Asantewaa")```
 
 
+```javascript
 let a = []
 
 // adding and removing elements from an array
@@ -27,8 +29,10 @@ a.splice(1, 2, 'Love', 'lovely')
 let result = a.map(item => item.length) 
 a.reverse()
 
-console.log(result, a)   
+console.log(result, a) 
+```  
 
+```javascript
 for(let i = 0; i < 4; i++) {
   console.log(i);
 }
@@ -43,8 +47,10 @@ if (arl === rrev) {
  } else{
      console.log(`${arl} is not a ${rrev} palindrome`)
  }
+ ```
 
 // sorting arrays
+```javascript
 let letters = []
 
 function name(pal) {
@@ -57,4 +63,6 @@ function name(pal) {
    }
 }
 
-name(letters)```
+name(letters)
+```
+
