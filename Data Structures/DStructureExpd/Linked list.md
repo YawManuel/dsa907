@@ -1,3 +1,119 @@
+### **2. Linked Lists**
+   - A collection of nodes where each node contains a value and a pointer to the next node.
+   - **Types:**
+     - **Singly Linked List**: Each node points to the next node.
+     - **Doubly Linked List**: Each node has pointers to both next and previous nodes.
+     - **Circular Linked List**: The last node points back to the head.
+   - **Key Algorithms:**
+     - Reversing a linked list
+     - Detecting a cycle (Floyd’s Cycle Detection)
+     - Finding the middle of a linked list (Fast/Slow pointer technique)
+
+```javascript
+class Node {
+      constructor(value) {
+         this.value = value
+         this.next = null
+      }
+}
+
+class LinkedList {
+    constructor(value) {
+      this.head = new Node(value)
+      this.tail = this.head
+      this.length = 1
+    }
+
+    push(value){
+      let newNode= new Node(value)
+      this.tail.next = newNode
+      this.tail = newNode
+      this.length++
+
+    }
+
+    pop(){
+      
+
+    }
+
+    unshift(value){
+      let newNode = new Node(value)
+
+      if(!this.head) {
+        this.head = newNode
+        this.tail = newNode
+      }
+      
+      newNode.next = this.head
+      this.head = newNode
+      this.length++
+      return this
+    }
+    
+    shift() {
+      if(!this.head) {
+        return undefined
+      }
+
+      // 1. Point the first node/element
+      let temp = this.head
+
+      // 2. Move the head to next node/element
+      this.head = this.head.next
+
+      // 3. Remove first element
+      temp.next = null
+      this.length--
+
+      if (this.length === 0) {
+        this.tail = null
+      }
+
+      return temp
+    }
+
+    getfirst(){
+      let temp = this.head
+      return temp
+    }
+
+    getlast(){
+
+    }
+  
+    get(){
+
+    }
+
+    set(index, value){
+
+    }
+
+    insert(){
+
+    }
+
+    size(){
+
+    }
+
+    clear(){
+      
+    }
+
+}
+
+let linkedList = new LinkedList(2)
+    linkedList.push(4)
+    linkedList.push(6)
+    // linkedList.unshift(0)
+    // linkedList.shift()
+    // linkedList.getfirst()
+
+console.log(linkedList.getfirst())
+```
+
 Linked lists, while often discussed in computer science courses, also have real-world applications where their properties—such as dynamic memory usage, ease of insertion and deletion—make them a natural choice. Here are some examples:
 
 1. **Music Players & Media Playlists:**  
