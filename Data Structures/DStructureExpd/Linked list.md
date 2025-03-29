@@ -112,6 +112,41 @@ let linkedList = new LinkedList(2)
     // linkedList.getfirst()
 
 console.log(linkedList.getfirst())
+
+// Double Linkedlist
+
+class DLNode {
+  constructor (value) {
+    this.value = value
+    this.next = null
+    this.prev = null
+  }
+}
+
+class DoubleLinkedList {
+  constructor (value) {
+    let newDLNode = new DLNode(value)
+    this.head = newDLNode
+    this.tail = newDLNode
+    this.length = 1
+  }
+
+  push(value) {
+    let newDLNode = new DLNode(value)
+    this.tail.next = newDLNode
+    newDLNode.prev = this.tail
+    this.tail = newDLNode
+    this.length++
+    return this
+
+  }
+}
+
+
+let newDLL = new DoubleLinkedList(0)
+newDLL.push(2)
+
+console.log(newDLL)
 ```
 
 Linked lists, while often discussed in computer science courses, also have real-world applications where their properties—such as dynamic memory usage, ease of insertion and deletion—make them a natural choice. Here are some examples:
