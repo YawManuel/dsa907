@@ -43,16 +43,16 @@ class Stack {
      
    }
 }
-```
 
-```javascript
 let stack = new Stack(0)
 stack.push(2)
 stack.push(4)
 stack.push(6)
 stack.pop()
 console.log(stack)
+```
 
+```javascript
 // other way of writing it
 class Stack {
     constructor() {
