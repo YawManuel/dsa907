@@ -9,7 +9,7 @@ Time Complexity: O(n²)
 
 Data Structure Used: Arrays
 
-javascript
+```javascript
 Copy
 Edit
 function bubbleSort(arr) {
@@ -75,6 +75,7 @@ function insertionSort(arr) {
 }
 
 console.log(insertionSort([5, 3, 8, 4, 2])); // Output: [2, 3, 4, 5, 8]
+
 4. Merge Sort (Efficient for large datasets)
 Description: Recursively divides the array into halves, sorts each half, and merges them back together.
 
@@ -188,6 +189,8 @@ function heapSort(arr) {
 }
 
 console.log(heapSort([5, 3, 8, 4, 2])); // Output: [2, 3, 4, 5, 8]
+
+
 Which Data Structures Are Used in Sorting Algorithms?
 Sorting Algorithm	Data Structure Used
 Bubble Sort	Array
