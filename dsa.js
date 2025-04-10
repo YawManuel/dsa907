@@ -1,4 +1,5 @@
-                 // Data Structures (Arrays)
+
+   // Data Structures (Arrays)
     /* Stacks */
     
     // function of: push, pop, peek, length
