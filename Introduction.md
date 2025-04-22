@@ -1,5 +1,5 @@
 
-## For a JavaScript data structures and algorithms for personl skills enhancing & interview test, focus on:
+# For a JavaScript data structures and algorithms for personl skills enhancing & interview test, focus on:
 
 1. **Core Data Structures**
    - Arrays & Strings (sliding window, two-pointer techniques)
