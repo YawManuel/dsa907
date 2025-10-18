@@ -251,3 +251,59 @@ Green - Wisdom
 White - Connection
 Red - Connection
 Yellow - Caution, Signal 
+
+• Join beginner
+*🗓️ Week 8: Capstone Project + Deployment*  
+*Goal:* Apply all concepts in one end-to-end project  ✅ *8-Week Beginner Roadmap to Learn Data Science* 📊🚀  
+
+*🗓️ Week 1: Python Basics*  
+*Goal:* Understand basic Python syntax & data types  
+*Topics:* Variables, lists, dictionaries, loops, functions  
+*Tools:* Jupyter Notebook / Google Colab  
+*Mini Project:* Calculator or number guessing game
+
+*🗓️ Week 2: Python for Data*  
+*Goal:* Learn data manipulation with NumPy & Pandas  
+*Topics:* Arrays, DataFrames, filtering, groupby, joins  
+*Tools:* Pandas, NumPy  
+*Mini Project:* Analyze a CSV (e.g., sales or weather data)
+
+*🗓️ Week 3: Data Visualization*  
+*Goal:* Visualize data trends & patterns  
+*Topics:* Line, bar, scatter, histograms, heatmaps  
+*Tools:* Matplotlib, Seaborn  
+*Mini Project:* Visualize COVID or stock market data
+
+*🗓️ Week 4: Statistics & Probability Basics*  
+*Goal:* Understand core statistical concepts  
+*Topics:* Mean, median, mode, std dev, probability, distributions  
+*Tools:* Python, SciPy  
+*Mini Project:* Analyze survey data & generate insights
+
+*🗓️ Week 5: Exploratory Data Analysis (EDA)*  
+*Goal:* Draw insights from real datasets  
+*Topics:* Data cleaning, outliers, correlation  
+*Tools:* Pandas, Seaborn  
+*Mini Project:* EDA on Titanic or Iris dataset
+
+*🗓️ Week 6: Intro to Machine Learning*  
+*Goal:* Learn ML workflow & basic algorithms  
+*Topics:* Supervised vs unsupervised, train/test split  
+*Tools:* Scikit-learn  
+*Mini Project:* Predict house prices (Linear Regression)
+
+*🗓️ Week 7: Classification Models*  
+*Goal:* Understand and apply classification  
+*Topics:* Logistic Regression, KNN, Decision Trees  
+*Tools:* Scikit-learn  
+*Mini Project:* Titanic survival prediction
+
+*Ideas:* Sales prediction, Movie rating analysis, Customer churn detection  
+*Tools:* Streamlit (for simple web app)  
+*Bonus:* Upload your project on GitHub
+
+💡 *Tips:*  
+• Practice daily on platforms like Kaggle or Google Colab  
+ projects on GitHub  
+
+💬 *Tap ❤️ for the detailed explanation of each topic!
