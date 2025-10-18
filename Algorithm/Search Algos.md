@@ -1,4 +1,9 @@
-Definition of Search Algorithm
+Blue - Miracle, Luck, Grow 
+Black - Protection, Security, Power
+Green - Wisdom 
+White - Connection
+Red - Connection
+Yellow - Caution, Signal Definition of Search Algorithm
 A search algorithm is a method used to find a specific element within a data structure. It determines whether the element exists and, if so, returns its position.
 
 Types of Search Algorithms
@@ -238,3 +243,11 @@ Interpolation Search	Sorted Array
 Exponential Search	Sorted Array
 Depth-First Search (DFS)	Graph, Tree
 Breadth-First Search (BFS)	Graph, Tree
+
+
+Blue - Miracle, Luck, Grow 
+Black - Protection, Security, Power
+Green - Wisdom 
+White - Connection
+Red - Connection
+Yellow - Caution, Signal 
